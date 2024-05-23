@@ -34,18 +34,25 @@
     resourcePath: config-root/namespaces/jx/jx-preview
     version: 0.4.10
   - apiVersion: v1
-    appVersion: 1.17.3
-    description: 'This chart bootstraps installation of [Lighthouse](https://github.com/jenkins-x/lighthouse). '
-    firstDeployed: "2024-05-22T20:59:00Z"
-    home: https://github.com/jenkins-x/lighthouse
+    appVersion: 0.1.9
+    applicationUrl: http://lighthouse.jx.mydomain.com
+    description: Web UI for Lighthouse, to visualize events, jobs, and merge status/history.
+    firstDeployed: "2024-05-23T20:27:50Z"
+    home: https://github.com/jenkins-x-plugins/lighthouse-webui-plugin
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-website/master/images/logo/jenkinsx-icon-color.svg
-    lastDeployed: "2024-05-22T20:59:00Z"
-    name: lighthouse
-    releaseName: lighthouse
+    ingresses:
+    - name: lighthouse-webui-plugin
+      url: http://lighthouse.jx.mydomain.com
+    lastDeployed: "2024-05-23T20:27:50Z"
+    name: lighthouse-webui-plugin
+    releaseName: lighthouse-webui-plugin
     repositoryName: jxgh
     repositoryUrl: https://jenkins-x-charts.github.io/repo
-    resourcePath: config-root/namespaces/jx/lighthouse
-    version: 1.17.3
+    resourcePath: config-root/namespaces/jx/lighthouse-webui-plugin
+    sources:
+    - https://github.com/jenkins-x-plugins/lighthouse-webui-plugin
+    - https://github.com/jenkins-x-plugins/lighthouse-webui-plugin.git
+    version: 0.1.9
   - apiVersion: v2
     appVersion: 0.5.9
     description: Jenkins X next gen cloud CI / CD platform for Kubernetes

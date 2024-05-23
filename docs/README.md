@@ -30,11 +30,11 @@
 	      <td></td>
 	    </tr>
     <tr>
-	      <td>lighthouse</td>
-	      <td title='This chart bootstraps installation of [Lighthouse](https://github.com/jenkins-x/lighthouse). '><a href='https://github.com/jenkins-x/lighthouse'> <img src='https://raw.githubusercontent.com/jenkins-x/jenkins-x-website/master/images/logo/jenkinsx-icon-color.svg' width='24px' height='24px'> lighthouse</a></td>
-	      <td>1.17.3</td>
-	      <td></td>
-	      <td></td>
+	      <td>lighthouse-webui-plugin</td>
+	      <td title='Web UI for Lighthouse, to visualize events, jobs, and merge status/history.'><a href='https://github.com/jenkins-x-plugins/lighthouse-webui-plugin'> <img src='https://raw.githubusercontent.com/jenkins-x/jenkins-x-website/master/images/logo/jenkinsx-icon-color.svg' width='24px' height='24px'> lighthouse-webui-plugin</a></td>
+	      <td>0.1.9</td>
+	      <td><a href='http://lighthouse.jx.mydomain.com'>view</a></td>
+	      <td><a href='https://github.com/jenkins-x-plugins/lighthouse-webui-plugin'>0</a> <a href='https://github.com/jenkins-x-plugins/lighthouse-webui-plugin.git'>1</a> </td>
 	    </tr>
     <tr>
 	      <td>jx-build-controller</td>

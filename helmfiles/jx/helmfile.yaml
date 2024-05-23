@@ -27,11 +27,13 @@ releases:
   values:
   - jx-values.yaml
 - chart: jxgh/lighthouse-webui-plugin
+  version: 0.1.9
   name: lighthouse-webui-plugin
   values:
   - ../../versionStream/charts/jxgh/lighthouse/values.yaml.gotmpl
   - jx-values.yaml
   - lighthouse-values.yaml
+  - ../../versionStream/charts/jxgh/lighthouse-webui-plugin/values.yaml.gotmpl
 - chart: jxgh/jx-build-controller
   version: 0.5.9
   name: jx-build-controller
