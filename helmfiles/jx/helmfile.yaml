@@ -26,9 +26,8 @@ releases:
   name: jx-preview
   values:
   - jx-values.yaml
-- chart: jxgh/lighthouse
-  version: 1.17.3
-  name: lighthouse
+- chart: jxgh/lighthouse-webui-plugin
+  name: lighthouse-webui-plugin
   values:
   - ../../versionStream/charts/jxgh/lighthouse/values.yaml.gotmpl
   - jx-values.yaml
